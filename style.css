@@ -1,0 +1,167 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+p {
+  margin: 0;
+}
+
+
+
+/* ---- layout ---- */
+
+#site-header {
+  padding: 30px 0;
+  color: white;
+  background: #111;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+/* ---- components ---- */
+
+.button {
+  width: 100%;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+.button-alt {
+  color: blue;
+  background-color: #fff;
+  color: white;
+}
+
+img {
+  width: 120px;
+  margin: 10px;
+}
+
+.order-btn {
+  height: 30px;
+  background-color: #ffea75;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 0px 4px #ffea75;
+  margin-top: 15px;
+}
+
+h3 {
+  color: #ffea75;
+}
+
+.arrow-down {
+  margin-top: 300px;
+  margin-left: 460px;
+}
+
+/* ---- section ---- */
+
+section.info {
+  background-image: url(images/main.png);
+  height: 768px;
+  color: white;
+}
+
+.info-text {
+  width: 600px;
+  align-items: center;
+  text-align: center;
+  margin-left: 220px;
+  padding-top: 60px;
+}
+
+section.hidden {
+  display: none;
+}
+
+.chose {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 420px;
+  padding: 20px;
+}
+
+section.house {
+  height: 370px;
+  background-color: lightcyan;
+}
+
+.houses-container {
+  display: flex;
+  color: white;
+}
+
+.house-details {
+  margin: 15px;
+}
+
+.house-title {
+  text-align: center;
+}
+
+.house-img {
+  margin-left: 40px;
+}
+
+.house-desc {
+  text-align: center;
+  width: 200px;
+}
+
