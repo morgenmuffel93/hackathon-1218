@@ -1,6 +1,7 @@
 'use strict';
 
 function main () {
+  console.log('entered')
   const ASectionElement = document.querySelector('.A');
   const BSectionElement = document.querySelector('.B');
   const CSectionElement = document.querySelector('.C');
@@ -11,6 +12,7 @@ function main () {
   const buttonD = document.querySelector('.btn-D');
 
   const showA = function (event) {
+    console.log('clicked')
     event.stopPropagation();
     ASectionElement.classList.toggle('hidden');
 
