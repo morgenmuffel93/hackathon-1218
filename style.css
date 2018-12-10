@@ -273,3 +273,26 @@ section.house {
   padding-bottom: 0px;
   height: 50px;
 }
+
+@media (min-width: 1025px) {
+  section.info {
+    background-image: url(images/cropped.png);
+    height: 780px;
+    color: white;
+    background-size: cover;
+}
+
+.info-text {
+  width: 600px;
+  align-items: center;
+  text-align: center;
+  margin-left: 320px;
+}
+
+.arrow-down {
+    margin-top: 60px;
+    margin-left: 590px;
+    width: 60px;
+}
+
+}
